@@ -1,0 +1,275 @@
+/* Home page style Start */
+
+.img1 , .img2 {
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  
+}
+
+.carousel-caption h5{
+  font-size: 6rem;
+  text-shadow: 0 0 10px rgba(255,255,255,0.9);
+  color: yellow;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-caption p {
+  font-size: 3rem;
+  text-shadow: 0 0 10px rgba(255,255,255,0.7);;
+  text-align: center;
+  font-family: "thorndike";
+}
+
+.heading {
+  margin-top: 30px;
+}
+
+/* Home page style End */
+
+
+/* Footer page Style Start  */
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  padding-right: 550px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+footer .social-icons {
+  margin-top: 10px;
+  padding-right: 250px;
+  font-family: 'Times New Roman', Times, serif;
+}
+footer .social-icons a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+footer .social-icons a:hover {
+  color: yellow;
+}
+footer .social-icons a i {
+  font-size: 24px;
+}
+
+/* Footer page Style End */
+
+
+/* Navbar page style start */
+
+.navbar-container {
+  font-size: 2rem;
+  font-family: "thorndike";
+  display: flex;
+}
+
+.navbar {
+  background-color: black;
+  padding: 30px;
+}
+.navbar ul li {
+  margin: 0 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.navbar .logo {
+  font-size: 2rem;
+  font-family: "thorndike";
+  color: white;
+  text-decoration: none;
+  margin-left: 90px;
+}
+.navbar .logo:hover {
+  color: yellow;
+}
+.navbar ul li:hover {
+  color: yellow;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+.navbar ul li a:hover {
+  color: yellow;
+}
+.navbar ul li a.active {
+  background-color: yellow;
+  border-radius: 10px;
+}
+.navbar ul li a.active:hover {
+  color: white;
+}
+
+/* Navbar page style end */
+
+
+/*About Us Page Style Start */
+.about-us {
+  background-color: #c9c4c4;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+}
+/* About us page style end */
+
+
+/*Contact Page Style Start */
+
+.contact {
+  background-color: #c9c4c4;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+}
+
+.contact-form {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow:  -20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact .heading {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-form label {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 7px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.contact-form button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/*Contact Page Style End */
+
+
+/* menu page style start */
+
+.menu {
+  background-color: #c9c4c4;
+  padding: 20px;
+}
+
+.menurow {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.pizzaRow dl {
+  padding: 0;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 0px;
+  font-size: 30px;
+}
+
+
+.pastaRow dl {
+  padding: 0;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: right;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 0px;
+  font-size: 30px;
+}
+
+.burgerRow dl {
+  padding: 0;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 0px;
+  font-size: 30px;
+
+}
+
+.saladRow dl {
+  padding: 0;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: right;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 0px;
+  font-size: 30px;
+}
+
+/* menu page style End */
