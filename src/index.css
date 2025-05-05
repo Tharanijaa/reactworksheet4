@@ -1,39 +1,26 @@
 /* Home page style Start */
 
-.img1 , .img2 {
-  background-position: center;
+
+.Home {
+  background-image: url(data:image/jpeg;base64,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);
   background-size: cover;
-  height: 70vh;
-}
-
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 30px;
-  
-}
-
-.carousel-caption h5{
-  font-size: 6rem;
-  text-shadow: 0 0 10px rgba(255,255,255,0.9);
-  color: yellow;
-  text-align: center;
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  height: 90vh;
 }
 
-.carousel-caption p {
-  font-size: 3rem;
-  text-shadow: 0 0 10px rgba(255,255,255,0.7);;
+.HomeContent {
+  display: block;
+  color: white;
   text-align: center;
-  font-family: "thorndike";
-}
-
-.heading {
-  margin-top: 30px;
+  padding-top: 300px;
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bold;
 }
 
 /* Home page style End */
@@ -41,23 +28,26 @@
 
 /* Footer page Style Start  */
 
-footer a {
-  color: white;
-  text-decoration: none;
-}
-footer a:hover {
-  color: yellow;
-  text-decoration: underline;
-}
+
 footer {
-  background-color: black;
+  background-color: rgb(236, 204, 204);
   color: white;
   padding: 20px;
   text-align: center;
+  display: flex;
 }
+
+.secondDiv {
+  margin-left: 100px;
+  padding-left: 350px;
+  padding-top: 20px;
+  text-align: center;
+}
+
 footer p {
   margin: 0;
-  padding-right: 550px;
+  padding-right: 450px;
+  
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
 }
@@ -83,52 +73,45 @@ footer .social-icons a i {
 
 /* Navbar page style start */
 
-.navbar-container {
-  font-size: 2rem;
-  font-family: "thorndike";
-  display: flex;
-}
-
 .navbar {
-  background-color: black;
+  background-color: rgb(236, 204, 204);
   padding: 30px;
+  display: flex;
 }
 .navbar ul li {
   margin: 0 20px;
-  font-family: 'Times New Roman', Times, serif;
-}
-.navbar a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 10px;
-  display: block;
+  font-family: 'arial', sans-serif;
 }
 .navbar ul {
   display: flex;
   list-style: none;
   font-size: 2rem;
 }
-
 .navbar .logo {
   font-size: 2rem;
-  font-family: "thorndike";
+  font-family: "times new roman", Times, serif;
   color: white;
   text-decoration: none;
   margin-left: 90px;
 }
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 .navbar .logo:hover {
-  color: yellow;
+  color: rgb(251, 151, 151);
 }
 .navbar ul li:hover {
-  color: yellow;
-  border-radius: 10px;
-  text-decoration: underline;
+  color:  rgb(251, 151, 151);
 }
 .navbar ul li a:hover {
-  color: yellow;
+  color:  rgb(251, 151, 151);
 }
 .navbar ul li a.active {
-  background-color: yellow;
+  background-color:  rgb(251, 151, 151);
   border-radius: 10px;
 }
 .navbar ul li a.active:hover {
@@ -139,11 +122,68 @@ footer .social-icons a i {
 
 
 /*About Us Page Style Start */
-.about-us {
-  background-color: #c9c4c4;
-  text-align: center;
+
+.about {
+  background-color: #dedede;
   font-family: 'Times New Roman', Times, serif;
-  padding: 30px;
+  padding: 10px;
+}
+
+.about h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color : white;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bold;
+}
+
+.aboutContent {
+  display: flex;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px #635a5a;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.aboutContent .aboutText {
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px #000000;
+  width: 50%;
+  padding-top: 170px;
+  padding-right: 50px;
+}
+.aboutContent .aboutText h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.aboutContent .aboutText p {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.aboutContent .aboutImage {
+  width: 50%;
+  text-align: center;
+}
+.aboutContent .aboutImage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: -20px 20px rgba(0, 0, 0, 0.1);
+}
+.aboutContent .aboutImage img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 /* About us page style end */
 
@@ -206,70 +246,3 @@ footer .social-icons a i {
 /*Contact Page Style End */
 
 
-/* menu page style start */
-
-.menu {
-  background-color: #c9c4c4;
-  padding: 20px;
-}
-
-.menurow {
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
-
-.pizzaRow dl {
-  padding: 0;
-  margin: 0;
-  display: block;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: left;
-  align-items: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-top: 0px;
-  font-size: 30px;
-}
-
-
-.pastaRow dl {
-  padding: 0;
-  margin: 0;
-  display: block;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: right;
-  align-items: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-top: 0px;
-  font-size: 30px;
-}
-
-.burgerRow dl {
-  padding: 0;
-  margin: 0;
-  display: block;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: left;
-  align-items: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-top: 0px;
-  font-size: 30px;
-
-}
-
-.saladRow dl {
-  padding: 0;
-  margin: 0;
-  display: block;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: right;
-  align-items: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-top: 0px;
-  font-size: 30px;
-}
-
-/* menu page style End */

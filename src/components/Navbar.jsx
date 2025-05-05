@@ -7,13 +7,12 @@ function Navbar() {
 
 
         <Link to="/" className="logo">
-          Akm
+          BookMart
         </Link>
 
         <ul className="nav">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/About">AboutUs</Link></li>
-          <li><Link to="/Menu">Menu</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
 

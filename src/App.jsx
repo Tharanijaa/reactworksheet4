@@ -1,22 +1,32 @@
-import Navbar from "./components/Navbar.jsx";
-import Footer from "./components/Footer.jsx";
-import Home from "../src/Pages/Home.jsx"
-import Contact from "../src/Pages/Contact.jsx"; // Ensure this path is correct
- // Try without the .jsx extension
-  // Ensure this path is correct
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from './Pages/Home'
+import Contact from './Pages/Contact'
+import About from './Pages/About'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import './App.css'
+
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
+
 
 function App() {
+
   return (
-    <Router>
+    <>
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/About" element={<About />} />
       </Routes>
+
       <Footer />
-    </Router>
-  );
+    </>
+
+
+  )
 }
 
-export default App;
+export default App
