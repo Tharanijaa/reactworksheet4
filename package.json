@@ -2,14 +2,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Tharanijaa.github.io/routing/",
+  "homepage": 
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
   },
   "dependencies": {
     "react": "^19.0.0",
